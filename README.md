@@ -1,3 +1,7 @@
 # lists
 
-A minimal command-line application.
+Exercice 05
+
+Antoine Reynes
+
+SIO 2109
