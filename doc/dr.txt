@@ -1,0 +1,24 @@
+ex05
+
+17/20
+
+(-1) import '../lib/lists.dart'; --> import 'package:lists/lists.dart';
+
+voir https://www.dartlang.org/articles/style-guide/
+testlettres(text) { --> testLettres(text) {
+
+utiliser les types pour des paramètres de fonctions
+testLettres(text) { --> testLettres(String text) {
+
+utiliser les types pour des résultats de fonctions
+testLettres(String text) { --> String testLettres(String text) {
+
+5.5
+
+(-1) la moitié d'un arbre 
+
+(-1) quel est le but de while (heigth == heigth); ?
+  }  while (heigth == heigth); --> }
+
+pour éviter nulle imprimé
+print(tree(10)); --> tree(10);

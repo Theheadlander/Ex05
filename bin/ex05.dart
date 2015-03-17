@@ -1,13 +1,12 @@
 // Copyright (c) 2015, <your name>. All rights reserved. Use of this source code
 // is governed by a BSD-style license that can be found in the LICENSE file.
 
-import '../lib/lists.dart';
+//import '../lib/lists.dart';
+import 'package:lists/lists.dart';
 
+String phrase1 = "Je suis en programme international";
+String phrase2 = "Je suis en programme international.";
 
-String phrase = "Je suis en programme international";
-
-
-  
 String fn02a() {
   var listofLists= 
       [
@@ -68,7 +67,6 @@ fn03c (){
   return maxLengthword;
 }
 
-
 String timetables(int a, int n){
   var result='';
   for(int i=1; i<=n; i++) {
@@ -77,24 +75,22 @@ String timetables(int a, int n){
   return result;
 }
 
-
-
 void main (){
-  
   print('Ex05 1)');
-  print(phrase);
-  print(testlettres(phrase));
+  print(phrase1);
+  print(testlettres(phrase1));
+  print(testlettres(phrase2));
   print('Ex05 2) Liste de phrases = ${fn02a()}');
   print('Ex05 2) Phrase la plus longue = ${fn02c()}');
   print('Ex05 3) La phrase = ${fn03a()}');
   print('Ex05 3) Le mot le plus long de la phrase = ${fn03c()}');
   print('Ex05 4) = 8 times table of 10 terms: \n ${timetables(8,10)}');
   print('Ex05 5) : Arbre à 5 étages \n');
-  print(tree(5));
+  //print(tree(5));
+  tree(5);
   print('Ex05 5)b) : Arbre à 10 étages \n');
-  print(tree(10));
-  
-  
+  //print(tree(10));
+  tree(10);
 }
 
 
